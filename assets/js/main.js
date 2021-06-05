@@ -112,6 +112,9 @@ data.forEach((key)=>{
             quizChoice.style.backgroundColor="green"
         } else{
             quizChoice.style.backgroundColor="red"
+            setTimeout(() => {
+                quizChoice.style.backgroundColor="black"
+            }, 300);
         }
         })   
     
